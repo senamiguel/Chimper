@@ -1,0 +1,166 @@
+.specialties__title{
+    font-size: 2em;
+    color: #0d0cb5;
+    line-height: 38.4px;
+    position: relative;
+    font-weight: 600;
+
+}
+.specialties hr{
+    width: 12%;
+    position: absolute;
+    border: 1px solid #0d0cb5;
+}
+.specialties{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    gap: 10em;
+}
+.specialties svg{
+    fill: #737373;
+}
+.specialties__container{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    line-height: 27.2px;
+    gap: 5em;
+}
+.textos{
+    display: flex;
+}
+.specialties__img{
+    width: 27%;
+    padding: 20px 0px 20px 0px;
+}
+.specialties__img img{
+    border-radius: 4px;
+    width: 90%;
+}
+.specialties__texto{
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+    flex-direction: column;
+    gap: 1em;
+}
+.specialties__texto h3{
+    font-size: 1.25em;
+}
+.ourteam-container{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.ourteam h3{
+    margin-top: 300px;
+    text-align: center;
+    font-size: 2em;
+    color: #0d0cb5;
+    line-height: 38.4px;
+    position: relative;
+    font-weight: 600;
+}
+.ourteam hr{
+    width: 5%;
+    text-align: center;
+    border: 1px solid #0d0cb5;
+    margin-bottom: 90px;
+}
+.card__person{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 100px;
+    width: 18.5%;
+}
+.person_desc{
+    color: #cccccc;
+    font-size: .75em;
+}
+.card__person h4{
+    margin-top: 40px;
+    font-size: 1.125em;
+    color: #4d4d4d;
+    font-weight: 600;
+}
+.card__person p{
+    line-height: 27.2px;
+}
+.person__img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.person__icons{
+    display: flex;
+    gap: 1em;
+}
+.person__icons svg{
+    width: 16px;
+    height: 16px;
+    fill: white;
+    padding: 6px;
+    background-color: #737373;
+    border-radius: 50%;
+}
+.swiper {
+    width: 800px;
+    margin-top: 80px;
+    height: 475px;
+    margin-bottom: 100px;
+}
+.swiper__title{
+    font-weight: 500;
+    font-size: 4em;
+    text-align: center;
+}
+.swiper hr{
+    width: 15%;
+    margin-top: 25px;
+    border-top: 3px solid #0c0c8c;
+}
+.swiper__texto{
+    margin-top: 55px;
+    font-style: italic;
+    font-size: 1.5em;
+    color: gray;
+    text-align: center;
+    line-height: 40.8px;
+}
+.swiper__profile{
+    gap: 1em;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    transform: translateX(-7px);
+}
+.swiper__profile p{
+    color: #4d4d4d;
+    margin-top: 20px;
+    text-align: center;
+}
+.person{
+    width: 50px;
+    border-radius: 50%;
+}
+hr{
+    border: 1px solid #ececec;
+}
+.hire{
+    display: inline-block;
+    width: 100%;
+    font-size: 2em;
+    line-height: 38.4px;
+    padding: 55px 0px 55px 0px;
+    background-color: #0d0cb5;
+    color: white;
+    text-align: center;
+    transition: .3s all ease;
+}
+.hire:hover{
+    background-color: #0b0b7c;
+}
